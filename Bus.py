@@ -45,7 +45,7 @@ class bus:
         return self
 
 bus = bus(100, 5)
-bus.add("Шустов", 8)
+bus.add("Шустов", 3)
 bus.add("Лепкович", 5)
 bus.change_speed(30)
 bus += "Шустов"
