@@ -1,4 +1,4 @@
-class bus:
+class Bus:
     def __init__(self, speed, seats):
         self.speed = 0
         self.max_speed = speed
@@ -44,7 +44,7 @@ class bus:
         self.remove(last_name)
         return self
 
-bus = bus(100, 5)
+bus = Bus(100, 5)
 bus.add("Шустов", 3)
 bus.add("Лепкович", 5)
 bus.change_speed(30)
